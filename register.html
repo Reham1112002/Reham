@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program</title>
+    <!-- main template css file -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- render all elements normally -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,200;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- start header -->
+    <div class="topnav" id="myTopnav">
+      
+        <a href="index.html" class="active">Program</a>
+        <a href="index.html">Home</a>
+      <a href="courses.html">courses</a>
+      <a href="plans.html">plans</a>
+      <a href="register.html">register</a>
+      <a href="about.html">About</a>
+    
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        
+        <div>
+        </div>
+
+        <div class="container">
+          <div class="form">
+              <div class="form-image">	
+                  <h2 class="form-heading">
+                       Create
+                      <small> your Account</small>
+                  </h2>
+              </div>
+              <form class="form-form" action="index.html" id="Form" method="GET">
+                  <div class="input">
+                      <input type="text" class="input-field" name="first-name"  id="Fname" />
+                      <label class="input-label">First name</label>
+                  </div>
+                  <div class="input">
+                      <input type="text" class="input-field" name="last-name" id="Lname" />
+                      <label class="input-label">Last name</label>
+                  </div>
+                  <div class="input">
+                      <input type="test" class="input-field" name="Email" placeholder="Reham@gmail.com" id="email" />
+                      <label class="input-label">Email</label>
+                  </div>
+                  <div class="input">
+                      <input type="password" name="password" id="password" class="input-field" />
+                      <label class="input-label">Password</label>
+                  </div>
+                  <div class="input">
+                      <input type="text" name="telephone" class="input-field" id="telephone" />
+                      <label class="input-label">Telephone </label>
+                  </div>
+                  <div class="input">
+                      <input type="text" class="input-field" name="address"  />
+                      <label class="input-label">Address</label>
+                  </div>
+                  <div class="input">
+                      <select name="gender" id="gender" class="input-field" style="background-color:#eee;">
+                              <option value="male" selected>male</option>
+                              <option value="female">female</option>
+                      </select>
+                      <label class="input-label">Gender </label>
+                  </div>
+                  <div class="input">
+                      <select name="plane" id="plane" class="input-field" style="background-color: #eee;">
+                              <option value="plane1" selected>Free</option>
+                              <option value="plane2">Premium</option>
+                              <option value="plane3">Platinum</option>
+                      </select>
+                      <label class="input-label">Plane </label>
+                  </div>
+                  <div class="action">
+                      <input name="submit"  type="submit" class="action-button" value="Get started">
+                  </div>
+              </form>
+      </div>
+  </div>
+         <!-- end register -->
+          <!-- start footer -->
+      <div class="footer">
+          &COPY; 2022 All Right Reserved
+      </div>
+  
+  
+       
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+        
+    <!-- end header -->
+      
+    
+
+</body>
+</html>
+<script src="register.js"></script>
